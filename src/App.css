@@ -1,0 +1,37 @@
+.Home{
+    display: flex;
+    font-family: sans-serif;
+
+    .homeContainer{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-left: 30px;
+
+            .todo{
+                ol{
+                    list-style: none;
+
+                    li{
+                        display: flex;
+
+                        align-items: center;
+                        justify-content: space-evenly;
+
+                        &:hover{
+                            background-color: #ddf7e0ab;
+                            color: green;
+                        }
+
+                        
+                    }
+                }
+
+                .icon{
+                    font-size: 40px;
+                    margin: 20px;
+                    margin-top: 5px;
+                }
+            }
+    }
+}

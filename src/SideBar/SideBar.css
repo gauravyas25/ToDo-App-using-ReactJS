@@ -1,0 +1,76 @@
+.sidebar{
+    margin-left: 10px;
+    height: 150vh;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(200, 240, 207);
+    position: static;
+
+    .intro{
+        align-items: center;
+        justify-content: center;
+        img{
+            background: url(Coatimg.jpg);
+            background-size: cover;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            margin: 20px;
+            margin-bottom: 0;
+        }
+        p{
+            margin-top: 5px;
+            font-size: 18px;
+            font-weight: 500;
+            margin: 10px;
+        }
+    }
+
+
+    .tasks{
+        background-color: white;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 200px;
+        ul{
+            list-style: none;
+            
+
+            li{
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                font-size: 18px;
+                font-weight: 500;
+                
+                &:hover{
+                    background-color: #ddf7e0ab;
+                    color: green;
+                }
+                .icon{
+                    padding: 10px;
+                    font-size: 25px;
+                }
+            }
+        }
+        .progressbar{
+            background-color: white;
+            width: 200px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+            .progress{
+                height: 150px;
+                width: 150px;
+            }
+        }
+    }
+
+    
+}
